@@ -1,0 +1,21 @@
+tr:nth-child(an+b) {
+
+}
+td  {
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+tr:nth-child(2n+1) td:nth-child(2n){
+  background: black;
+}
+tr:nth-child(2n) td:nth-child(2n+1){
+  background: black;
+}
+tr:nth-child(1) td:nth-child(n){
+  background: white;
+}
+tr:nth-child(n) td:nth-child(1) {
+  background: white;
+}
